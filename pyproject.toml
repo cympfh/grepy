@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "grepy"
+version = "0.1.0"
+description = "web-grep written in Python3"
+authors = ["cympfh <cympfh@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.scripts]
+grepy = "grepy.cli:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+easy-scraper-py = "^0.1.6"
+click = "^8.0.4"
+
+[tool.poetry.dev-dependencies]
+isort = {version = "^5.10.1", extras = ["black"]}
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
