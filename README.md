@@ -8,4 +8,6 @@ Scraping HTML or XML with simple Patterns like `grep -o`.
 $ pip install git+https://github.com/cympfh/grepy
 $ which grepy
 $ curl -sL https://example.com/xxx | grepy '<a href={}></a>'
+$ curl -sL https://example.com/xxx | grepy '<a href={link}>{text}</a>'  # ltsv by default
+$ curl -sL https://example.com/xxx | grepy '<a href={link}>{text}</a>' -f json
 ```
