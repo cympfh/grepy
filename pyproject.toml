@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "grepy"
-version = "0.1.0"
+version = "1.0.0"
 description = "web-grep written in Python3"
 authors = ["cympfh <cympfh@gmail.com>"]
 license = "MIT"
