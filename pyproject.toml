@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "grepy"
+name = "web-grepy"
 version = "1.0.0"
 description = "web-grep written in Python3"
 authors = ["cympfh <cympfh@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/cympfh/grepy/"
+repository = "https://github.com/cympfh/web-grepy/"
 
 [tool.poetry.scripts]
-grepy = "grepy.cli:main"
+"web-grepy" = "web_grepy.cli:main"
 
 [tool.poetry.dependencies]
 python = "^3.9"
