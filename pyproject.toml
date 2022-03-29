@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "web-grepy"
-version = "1.0.0"
+version = "1.1.0"
 description = "web-grep written in Python3"
 authors = ["cympfh <cympfh@gmail.com>"]
 license = "MIT"
@@ -12,7 +12,7 @@ repository = "https://github.com/cympfh/web-grepy/"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-easy-scraper-py = "^0.1.6"
+easy-scraper-py = "^1.0.0"
 click = "^8.0.4"
 
 [tool.poetry.dev-dependencies]

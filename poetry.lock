@@ -41,7 +41,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
 [[package]]
 name = "easy-scraper-py"
-version = "0.1.6"
+version = "1.0.0"
 description = "An Easy Scraper for HTML"
 category = "main"
 optional = false
@@ -108,7 +108,7 @@ python-versions = ">=3.6"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "d9f333f8a603d3e6e88230b42a2b5e7814139c2cc02e38091551ab156f64a87c"
+content-hash = "e7ccd0fe05dd87069712b36475d5f0e23b0b99af2e55a344c7cc730a9f783280"
 
 [metadata.files]
 black = [
@@ -145,8 +145,8 @@ colorama = [
     {file = "colorama-0.4.4.tar.gz", hash = "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"},
 ]
 easy-scraper-py = [
-    {file = "easy-scraper-py-0.1.6.tar.gz", hash = "sha256:f3aae663bf2b75ff0ae8d441b2e0659c5e6f6946387dae997c15951b4224d6ed"},
-    {file = "easy_scraper_py-0.1.6-py3-none-any.whl", hash = "sha256:12ebafd55cf8d74d9f4072952b0fc941abc81fa1657e994193e060cf00ad8102"},
+    {file = "easy-scraper-py-1.0.0.tar.gz", hash = "sha256:adff88e6013d43f4e096b327f8b7a6886de590db3f47fc78bf5dac2494679fe9"},
+    {file = "easy_scraper_py-1.0.0-py3-none-any.whl", hash = "sha256:2e945df8040a8d88f8f65b95b9ed76ee760a13c2ffc7d45a9d94f996073807be"},
 ]
 isort = [
     {file = "isort-5.10.1-py3-none-any.whl", hash = "sha256:6f62d78e2f89b4500b080fe3a81690850cd254227f27f75c3a0c491a1f351ba7"},
