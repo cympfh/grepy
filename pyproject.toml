@@ -4,6 +4,8 @@ version = "1.0.0"
 description = "web-grep written in Python3"
 authors = ["cympfh <cympfh@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+repository = "https://github.com/cympfh/grepy/"
 
 [tool.poetry.scripts]
 grepy = "grepy.cli:main"
